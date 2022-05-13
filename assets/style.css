@@ -10,9 +10,24 @@ button {
     padding: 10px;
     display: inline-block;
     margin-bottom: 50px;
+    transition: all 1s ease;
 }
 button:hover {
     box-shadow: 0px, 0px, 5px, purple;
     border: 1px purple solid;
     background: white;
+    transform: rotateZ(20deg)
+}
+.container {
+   justify-content: start;
+}
+img{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+#concert {
+    width: 115%;
+    height: 100%
 }
