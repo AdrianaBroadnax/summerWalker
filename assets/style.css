@@ -1,5 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+
 h1 {
     margin-bottom: 25px;
+    background-color: rgb(247, 150, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 button {
@@ -31,3 +38,43 @@ img{
     width: 115%;
     height: 100%
 }
+body {
+    background-image: linear-gradient(#12f7f7, #9ceff5);
+}
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-image: linear-gradient(#fae954, #faf096);
+  }
+  
+  .card header {
+    padding: 20px;
+    background: #d271ff;
+    color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    padding: 20px;
+    /* The client insists that images be at least 400px */
+    min-width: 400px;
+    right: 50px;
+    border-radius: 25px;
+  }
+  main {
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+    flex-wrap: wrap; /* by default: it is nowrap */
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background: #d271ff;
+    color: #fff;
+  }
